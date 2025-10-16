@@ -1,0 +1,28 @@
+# Ignorar archivos generados automáticamente por Composer
+/vendor/
+
+# Ignorar archivos de configuración de entorno
+# *¡MUY IMPORTANTE!* Contienen datos sensibles (bases de datos, claves)
+.env
+.env.local
+.env.testing
+.env.*.php
+
+# Ignorar caché, logs y otros archivos temporales
+/storage/*.key
+/public/storage
+/bootstrap/cache/
+/storage/logs/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/storage/app/public/
+/storage/debugbar/
+
+# Ignorar carpetas y archivos específicos de entornos de desarrollo (IDE)
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+.phpunit.result.cache
